@@ -16,6 +16,9 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
+  s.dependency 'Beethoven', '~> 5.0'
+  s.dependency 'Hue', '~> 5.0'
+  s.dependency 'Cartography', '~> 3.0'
 
   # Swift/Objective-C compatibility
   s.pod_target_xcconfig = {
